@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6396BB8614C28914000B5466 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6396BB8514C28914000B5466 /* Cocoa.framework */; };
+		6396BB9014C28914000B5466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6396BB8E14C28914000B5466 /* InfoPlist.strings */; };
+		6396BB9914C2894A000B5466 /* PRTweaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396BB9814C2894A000B5466 /* PRTweaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6396BB8214C28914000B5466 /* ProblemReporterTweaks.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemReporterTweaks.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6396BB8514C28914000B5466 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6396BB8814C28914000B5466 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6396BB8914C28914000B5466 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6396BB8A14C28914000B5466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6396BB8D14C28914000B5466 /* ProblemReporterTweaks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProblemReporterTweaks-Info.plist"; sourceTree = "<group>"; };
+		6396BB8F14C28914000B5466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6396BB9114C28914000B5466 /* ProblemReporterTweaks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProblemReporterTweaks-Prefix.pch"; sourceTree = "<group>"; };
+		6396BB9714C2894A000B5466 /* PRTweaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTweaker.h; sourceTree = "<group>"; };
+		6396BB9814C2894A000B5466 /* PRTweaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTweaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6396BB7F14C28914000B5466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6396BB8614C28914000B5466 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6396BB7714C28914000B5466 = {
+			isa = PBXGroup;
+			children = (
+				6396BB8B14C28914000B5466 /* ProblemReporterTweaks */,
+				6396BB8414C28914000B5466 /* Frameworks */,
+				6396BB8314C28914000B5466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6396BB8314C28914000B5466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6396BB8214C28914000B5466 /* ProblemReporterTweaks.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6396BB8414C28914000B5466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6396BB8514C28914000B5466 /* Cocoa.framework */,
+				6396BB8714C28914000B5466 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6396BB8714C28914000B5466 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6396BB8814C28914000B5466 /* AppKit.framework */,
+				6396BB8914C28914000B5466 /* CoreData.framework */,
+				6396BB8A14C28914000B5466 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6396BB8B14C28914000B5466 /* ProblemReporterTweaks */ = {
+			isa = PBXGroup;
+			children = (
+				6396BB8C14C28914000B5466 /* Supporting Files */,
+				6396BB9714C2894A000B5466 /* PRTweaker.h */,
+				6396BB9814C2894A000B5466 /* PRTweaker.m */,
+			);
+			path = ProblemReporterTweaks;
+			sourceTree = "<group>";
+		};
+		6396BB8C14C28914000B5466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6396BB8D14C28914000B5466 /* ProblemReporterTweaks-Info.plist */,
+				6396BB8E14C28914000B5466 /* InfoPlist.strings */,
+				6396BB9114C28914000B5466 /* ProblemReporterTweaks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6396BB8114C28914000B5466 /* ProblemReporterTweaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6396BB9414C28914000B5466 /* Build configuration list for PBXNativeTarget "ProblemReporterTweaks" */;
+			buildPhases = (
+				6396BB7E14C28914000B5466 /* Sources */,
+				6396BB7F14C28914000B5466 /* Frameworks */,
+				6396BB8014C28914000B5466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProblemReporterTweaks;
+			productName = ProblemReporterTweaks;
+			productReference = 6396BB8214C28914000B5466 /* ProblemReporterTweaks.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6396BB7914C28914000B5466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6396BB7C14C28914000B5466 /* Build configuration list for PBXProject "ProblemReporterTweaks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6396BB7714C28914000B5466;
+			productRefGroup = 6396BB8314C28914000B5466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6396BB8114C28914000B5466 /* ProblemReporterTweaks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6396BB8014C28914000B5466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6396BB9014C28914000B5466 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6396BB7E14C28914000B5466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6396BB9914C2894A000B5466 /* PRTweaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6396BB8E14C28914000B5466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6396BB8F14C28914000B5466 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6396BB9214C28914000B5466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6396BB9314C28914000B5466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6396BB9514C28914000B5466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProblemReporterTweaks/ProblemReporterTweaks-Prefix.pch";
+				INFOPLIST_FILE = "ProblemReporterTweaks/ProblemReporterTweaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6396BB9614C28914000B5466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProblemReporterTweaks/ProblemReporterTweaks-Prefix.pch";
+				INFOPLIST_FILE = "ProblemReporterTweaks/ProblemReporterTweaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6396BB7C14C28914000B5466 /* Build configuration list for PBXProject "ProblemReporterTweaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6396BB9214C28914000B5466 /* Debug */,
+				6396BB9314C28914000B5466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6396BB9414C28914000B5466 /* Build configuration list for PBXNativeTarget "ProblemReporterTweaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6396BB9514C28914000B5466 /* Debug */,
+				6396BB9614C28914000B5466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6396BB7914C28914000B5466 /* Project object */;
+}
